@@ -1,0 +1,31 @@
+/* top half */
+.top{
+background-image: url("./resources/images/1911census.jpg");
+height: 30rem;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
+/* top banner with name and navigation */
+.banner{
+height: 3rem;
+margin: 1rem;
+background-color: AliceBlue;
+display: inline-flex;
+}
+.banner-left{
+	float: left;
+	display: flex;
+	align-items: center;
+	padding: 1rem;
+	width: 40rem;
+}
+.banner-right{
+	float: right;
+	display: flex;
+	align-items: center;
+}
+.banner-right span{
+	padding: 1rem;
+}
