@@ -1,10 +1,11 @@
 /* top half */
 .top{
-background-image: url("./resources/images/1911census.jpg");
+background-image: url("./resources/images/Wiltshire_CurzonSt_c.1900.jpg");
 height: 30rem;
 background-repeat: no-repeat;
-background-position: center;
+background-position: bottom;
 background-size: cover;
+font-family: Arial, Helvetica, sans-serif;
 }
 
 /* top banner with name and navigation */
@@ -21,6 +22,9 @@ display: inline-flex;
 	padding: 1rem;
 	width: 40rem;
 }
+.banner-left h1{
+	color: Crimson;
+}
 .banner-right{
 	float: right;
 	display: flex;
@@ -28,4 +32,18 @@ display: inline-flex;
 }
 .banner-right span{
 	padding: 1rem;
+}
+
+/* floating intro box */
+
+.intro{
+	position: absolute;
+	top: 15rem;
+	right: 5rem;
+	float: right;
+	background-color: white;
+	color: black;
+	width: 20rem;
+	padding: 1rem;
+	font-size: 0.9rem;
 }
