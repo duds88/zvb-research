@@ -1,0 +1,37 @@
+/* SERVICES */
+
+/* 'services' top half */
+.top{
+background-image: url("./resources/images/Wiltshire_CurzonSt_c.1900.jpg");
+height: 7rem;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+/* 'services' top banner with name and navigation */
+.banner{
+height: 3rem;
+margin: 1rem;
+background-color: AliceBlue;
+display: inline-flex;
+}
+.banner-left{
+	float: left;
+	display: flex;
+	align-items: center;
+	padding: 1rem;
+	width: 40rem;
+}
+.banner-left h1{
+	color: Crimson;
+}
+.banner-right{
+	float: right;
+	display: flex;
+	align-items: center;
+}
+.banner-right span{
+	padding: 1rem;
+}

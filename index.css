@@ -1,3 +1,5 @@
+/* THE HOME PAGE */
+
 /* top half */
 .top{
 background-image: url("./resources/images/Wiltshire_CurzonSt_c.1900.jpg");
@@ -39,11 +41,36 @@ display: inline-flex;
 .intro{
 	position: absolute;
 	top: 15rem;
-	right: 5rem;
+	right: 4rem;
 	float: right;
 	background-color: white;
 	color: black;
 	width: 20rem;
 	padding: 1rem;
 	font-size: 0.9rem;
+}
+
+/* the boxes */
+
+.box{
+	position: relative;
+	width: 15rem;
+	height: 15rem;
+	border-style: solid;
+	border-color: Black;
+	background-color: AliceBlue;
+	margin: 2rem 4rem;
+	display: inline-block;
+}
+
+.box h1{
+	font-size: 1.5rem;
+	color: Crimson;
+	padding: 1rem 1rem 0rem 1rem;
+}
+
+.box p{
+	font-size: 0.8rem;
+	font-family: inherit;
+	padding: 1rem 1rem 0rem 1rem;
 }
